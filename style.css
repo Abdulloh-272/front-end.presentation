@@ -16,4 +16,15 @@
   -webkit-text-stroke-width: 0.4px;
 }
 
+.animat-spin {
+  animation-name: spin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
 
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Style links  -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="bg-black pb-12">
+    <!-- Header Start  -->
+    <header class="py-5 z-10 top-0 fixed bg-transparent w-full">
+      <div class="container mx-auto px-16 flex justify-end">
+        <a href="./index.html">
+          <button
+            class="border-white border-2 bg-black text-white py-2 px-4 rounded-lg"
+          >
+            BACK
+          </button>
+        </a>
+      </div>
+    </header>
+    <div class="flex justify-center mt-28">
+      <!-- Header Finish  -->
+      <div
+        data-aos-delay="300"
+        data-aos-duration="800"
+        data-aos="zoom-out-up"
+        class="h-[400px] w-[800px] overflow-hidden border-2 border-dashed border-white bg-gradient-to-tr from-rose-600 to-cyan-400 via-purple-700 flex items-center justify-center"
+      >
+        <a
+          target="_blank"
+          href="https://abdulloh-272.github.io/5-11-dars/"
+          class=""
+        >
+          <div
+            class="bg-[#ffffff] w-[400px] shadow-2xl shadow-[#282828e2] rounded-lg px-5 pt-6 pb-20"
+          >
+            <div class="flex items-center gap-5">
+              <h2 class="text-sky-700 font-semibold text-2xl">To-Do List</h2>
+              <i
+                class="fa-solid fa-list-check text-2xl"
+                style="color: #ff0000"
+              ></i>
+            </div>
+
+            <div
+              class="mt-5 overflow-hidden bg-gray-200 flex items-center justify-between rounded-full w-[360px]"
+            >
+              <input
+                class="outline-none w-full py-2 px-5 bg-transparent text-sky-800 placeholder:text-gray-500 input"
+                placeholder="Add your text"
+                type="text"
+              />
+
+              <button
+                class="text-white font-medium bg-rose-500 py-2 px-8 active:scale-[0.9] transition-all rounded-full btn"
+              >
+                Add
+              </button>
+            </div>
+
+            <div class="">
+              <ul
+                class="mt-5 px-5 ul-wrap overflow-y-auto items-center max-h-[300px]"
+              ></ul>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="flex justify-center">
+      <div
+        data-aos-delay="500"
+        data-aos-duration="800"
+        data-aos="zoom-out-down"
+        class="border-2 border-dashed w-[800px] border-white overflow-hidden flex justify-center mt-20"
+      >
+        <a
+          target="_blank"
+          href="https://abdulloh-272.github.io/6.7-dars/"
+          class=""
+        >
+          <video
+            class="h-[400px]"
+            autoplay
+            muted
+            loop
+            src="./img/Screen Recording 2024-08-20 171327.mp4"
+          ></video>
+        </a>
+      </div>
+    </div>
+
+    <div class="flex justify-center mt-20">
+      <a
+        target="_blank"
+        href="https://abdulloh-272.github.io/front.6-exam/"
+        class=""
+      >
+        <div
+          data-aos-delay="300"
+          data-aos-duration="800"
+          data-aos="zoom-out-up"
+          class="w-[800px] h-[400px] border-2 border-white border-dashed"
+        >
+          <video
+            muted
+            loop
+            autoplay
+            src="./img/Screen Recording 2024-08-20 172236.mp4"
+          ></video>
+        </div>
+      </a>
+    </div>
+    <!-- Footer Start  -->
+
+    <!-- Footer Finish  -->
+    <noscript>Browser java scriptni qollab quvvatlamaydi</noscript>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./app.js"></script>
+  </body>
+</html>
