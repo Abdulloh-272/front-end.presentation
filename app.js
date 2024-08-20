@@ -85,4 +85,18 @@ document.addEventListener("DOMContentLoaded", () => {
         break;
     }
   }
+
+  const mentor = document.querySelector(".mentor");
+  const links = document.querySelector(".links");
+  const foot = document.querySelector(".foot");
+  mentor.addEventListener("click", () => {
+    links.classList.toggle("-top-28");
+
+    const ft = foot.classList.contains("overflow-hidden");
+    if (ft) {
+      foot.classList.remove("overflow-hidden");
+    } else {
+      foot.classList.add("overflow-hidden");
+    }
+  });
 });

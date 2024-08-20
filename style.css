@@ -28,3 +28,13 @@
     transform: rotate(360deg);
   }
 }
+
+.clip-path-triangle {
+  width: 30px;
+  height: 20px;
+  background-color: #a7a6a632; /* Uchburchakning rangi */
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+  rotate: 180deg;
+  position: absolute;
+  bottom: -20px;
+}
